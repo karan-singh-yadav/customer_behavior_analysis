@@ -11,44 +11,33 @@ The goal of this project is to simulate a corporate-grade end-to-end data analyt
 
 Analyze e-commerce transactions to identify top products, customer loyalty trends, and revenue opportunities. Key outcomes include RFM segmentation, sentiment insights, and interactive visualizations for decision-makers. Built for scalable analytics pipelines.
 
-Dataset
+##Dataset
+
 Source: Synthetic e-commerce data (purchases.csv, reviews.csv) with 10K+ records.
-
 Features: Customer ID, purchase date, product category, quantity, revenue, review text, rating.
-
 Size: ~5MB, mimicking real-world retail datasets like UCI Online Retail.
 
-Tools & Technologies
+##Tools & Technologies
+
 Python: pandas, numpy, matplotlib, seaborn for EDA and cleaning.
-
 SQL: PostgreSQL for queries on aggregated tables.
-
 Visualization: Power BI for interactive dashboards.
-
 Reporting: Gamma.app for PPT slides.
-
 Environment: VS Code, Jupyter notebooks, pgAdmin.
 
-Project Steps
+##Project Steps
+
 Data Loading & EDA: Load CSVs into pandas; explore distributions, correlations, missing values.
-
 Data Cleaning: Handle nulls, outliers, standardize formats; engineer features like order value.
-
 Database Setup: Create PostgreSQL schema; load cleaned data via psycopg2.
-
 SQL Analysis: Run queries for RFM metrics, top customers, trend analysis.
-
 Power BI Dashboard: Connect to PostgreSQL; build visuals for sales, segments, forecasts.
-
 Reporting: Export insights to Gamma PPT for executive summary.
 
-Dashboard Highlights
+##Dashboard Highlights
 Interactive Power BI report features:
-
 Sales trends by category and time.
-
 Customer segmentation (RFM matrix).
-
 Top products heatmap.
 
 Sentiment vs. revenue scatter plot.
